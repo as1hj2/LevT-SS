@@ -1,0 +1,35 @@
+levt_a100_ss.wmt14.aggr0.9.sample0.5.new_del.en-de-checkpoint.avglast10.pt
+first
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 9.3501 39.1/13.4/5.5/2.6 (BP = 1.000 ratio = 1.047 hyp_len = 65648 ref_len = 62688)
+second
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 18.5620 60.1/29.9/17.5/10.8 (BP = 0.769 ratio = 0.792 hyp_len = 49638 ref_len = 62688)
+last
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 19.4672 60.3/31.8/19.3/12.2 (BP = 0.751 ratio = 0.777 hyp_len = 48732 ref_len = 62688)
+levt_a100_ss.wmt14.aggr0.5.sample0.5.new_del.en-de-checkpoint.avglast10.pt
+first
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 9.5205 39.2/13.7/5.6/2.7 (BP = 1.000 ratio = 1.049 hyp_len = 65788 ref_len = 62688)
+second
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 17.6361 59.2/29.0/16.7/10.1 (BP = 0.760 ratio = 0.785 hyp_len = 49185 ref_len = 62688)
+last
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 18.3008 59.2/30.7/18.3/11.4 (BP = 0.736 ratio = 0.766 hyp_len = 47996 ref_len = 62688)
+levt_dev.wmt14.post_del.prob0.en-de-checkpoint.avglast10.pt
+first
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 10.0636 40.9/14.5/6.0/2.9 (BP = 0.995 ratio = 0.995 hyp_len = 62362 ref_len = 62688)
+second
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 22.4919 58.4/30.9/18.3/11.2 (BP = 0.913 ratio = 0.916 hyp_len = 57437 ref_len = 62688)
+last
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 23.2953 58.8/31.5/18.8/11.7 (BP = 0.921 ratio = 0.924 hyp_len = 57896 ref_len = 62688)
+finetune-orig-new-aggr0-del1*0.5-checkpoint.avglast3epoch.pt
+first
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 9.4380 38.5/13.6/5.6/2.7 (BP = 1.000 ratio = 1.071 hyp_len = 67142 ref_len = 62688)
+second
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 18.2286 57.0/28.3/16.5/10.2 (BP = 0.799 ratio = 0.817 hyp_len = 51200 ref_len = 62688)
+last
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.1.0 = 15.1618 49.4/22.7/13.5/8.5 (BP = 0.801 ratio = 0.818 hyp_len = 51290 ref_len = 62688)
+finetune-orig-new-more-aggr0-checkpoint.avglast3epoch.pt
+first
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1 = 9.1618 38.7/13.3/5.4/2.5 (BP = 1.000 ratio = 1.043 hyp_len = 65381 ref_len = 62688)
+second
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1 = 16.9362 59.6/29.2/16.8/10.2 (BP = 0.723 ratio = 0.755 hyp_len = 47344 ref_len = 62688)
+last
+BLEU|nrefs:1|case:mixed|eff:no|tok:13a|smooth:exp|version:2.3.1 = 13.0105 51.4/23.0/13.8/8.8 (BP = 0.669 ratio = 0.713 hyp_len = 44719 ref_len = 62688)

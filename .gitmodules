@@ -1,0 +1,4 @@
+[submodule "fairseq-levt-ss"]
+	path = fairseq-levt-ss
+	url = https://github.com/as1hj2/fairseq-levt-ss
+	branch = levt-ss
