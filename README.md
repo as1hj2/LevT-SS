@@ -30,3 +30,10 @@
     │   └── ...                 
     └── ...
 
+## Dataset
+
+## Train/finetune
+
+## Validate
+
+## Test/inference
