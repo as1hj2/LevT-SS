@@ -35,17 +35,17 @@ WMT14 en-de dataset, with the test set containing 3003 samples.
 
 ## New options
 ### Train/finetune
---new-del-input: use method II \\
---post-del: keep the original method unchanged \\
---use-aggravate-prob: alpha \\
---sample1-prob: beta \\
+--new-del-input: use method II  
+--post-del: keep the original method unchanged  
+--use-aggravate-prob: alpha  
+--sample1-prob: beta  
 
 ### Validate
 --save-tensors: save preds and refs during iter2 on training set, remember to set the file name in validate.py
 
 ### Test
---delete-threshold: delta_d \\
---iter-decode-eos-penalty: delta_e \\
---use-pld-dp: use length search \\
---give-len: set iter1 [pld] pred as the given length, remember to add the given length in xxx.en file \\
---give-initial: give initial tokens as the initialization, so model will do del-pld-tok-... remember to add the given tokens in xxx.en file \\
+--delete-threshold: delta_d  
+--iter-decode-eos-penalty: delta_e  
+--use-pld-dp: use length search  
+--give-len: set iter1 [pld] pred as the given length, remember to add the given length in xxx.en file  
+--give-initial: give initial tokens as the initialization, so model will do del-pld-tok-... remember to add the given tokens in xxx.en file  
